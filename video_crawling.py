@@ -90,8 +90,8 @@ def combine_ts(file_path, title, length):
 
 
 def main():
-    print("网站:http://hsck824.cc")
-    user_input = input("请输入视频播放页链接，例如 <http://hsck824.cc/vodplay/37106-1-1/> ,开始下载---------->\n")
+    print("网站:http://hs.cc")
+    user_input = input("请输入视频播放页链接，例如 <http://hs.cc/vodplay/37106-1-1/> ,开始下载---------->\n")
     url = user_input
     file_path = r'/mnt/media/other'
     print(f"文件保存路径:{file_path}")
