@@ -64,6 +64,6 @@ class YouDao:
 
 
 if __name__ == '__main__':
-    cookie = 'NTES_PASSPORTYNOTE_FORCE=true; YNOTE_SESS=v2|213qbdY3qVOW0fTFPLkG0l5kMwB64PK0Ul64pFOLeu0QZhfO5nMlA0pFnMw4hMQFRlf0Lk5h4OY0k5RLOA6Mgu0kA0MQZ6LOG0; YNOTE_LOGIN=5||1702107554048'  # 填入cookie https://note.youdao.com/
-    key = "SCT120690TsKsdjxbUPNEg14IgtvBIPIhw"  # server酱的sendkey
+    cookie = ''  # 填入cookie https://note.youdao.com/
+    key = ""  # server酱的sendkey
     YouDao(cookie, key).sign()
