@@ -121,7 +121,7 @@ class VideoDownloader:
         try:
             print("网站:http://hsck824.cc")
             user_input = input(
-                "请输入视频播放页链接，例如 <http://hsck824.cc/vodplay/37106-1-1/> ,开始下载---------->\n"
+                "请输入视频播放页链接，例如 <http://hs.cc/vodplay/37106-1-1/> ,开始下载---------->\n"
             )
         except KeyboardInterrupt:
             logger.error("已取消")
